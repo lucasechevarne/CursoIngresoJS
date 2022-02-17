@@ -1,10 +1,21 @@
 function mostrar()
 {
-	//tomo el mes
-	var mesDelAño =txtIdMes.value;
-	alert(mesDelAño);
+	let mesDelAño
+	let mensaje
+
+	mesDelAño = document.getElementById("txtIdMes").value;
 	
-	
+	switch(mesDelAño){
+	case "Febrero":
+	mensaje = "Este mes tiene menos de 29 dias";
+	break;
+
+	default:
+	mensaje = "Este mes tiene mas de 29 dias";
+	break;
+		
+	 }
+	 alert(mensaje);
 
 
-}//FIN DE LA FUNCIÓN
+}//Lucas Echevarne

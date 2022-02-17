@@ -10,6 +10,6 @@ function mostrar()
 		alert("Usted es mayor de edad");
 	}
 
-	alert("Alert final");
+
 
 }//Lucas Echevarne 
