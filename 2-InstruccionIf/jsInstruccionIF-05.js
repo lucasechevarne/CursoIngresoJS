@@ -1,6 +1,12 @@
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
 
-}//FIN DE LA FUNCIÓN
+	let edad
+
+	edad = parseInt(document.getElementById("txtIdEdad").value);
+
+	if (edad <=13 || edad >=18 ) {
+		alert("Usted no es adolescente");
+	}
+
+}// //Lucas Echevarne

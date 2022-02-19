@@ -16,6 +16,5 @@ function SacarResto()
 
 	alert(resultado);
 
-
 }
-//Lucas Echevarne
+// Lucas Echevarne

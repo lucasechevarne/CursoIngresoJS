@@ -58,5 +58,4 @@ function dividir()
 
 	alert("El resultado es " + resultado);
 }
-
-//Lucas Echevarne 
+// Lucas Echevarne 

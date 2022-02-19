@@ -10,6 +10,6 @@ function mostrar()
 		alert("Niña bonita");
 		
 	}
-	alert("Esto lo escribi despues de el condicional");
+	
 
 }//Lucas Echevarne 
